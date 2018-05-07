@@ -1,2 +1,45 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <button mat-raised-button color="primary">Hello World</button>
+<div>
+  normal icon
+  <mat-icon>person</mat-icon>
+</div>
+<div>
+  icon with primary color
+  <mat-icon color="primary">thumb_up</mat-icon>
+</div>
+
+<div>
+  icon with accent color
+  <mat-icon color="accent">info</mat-icon>
+</div>
+
+<div>
+  icon with warning color
+  <mat-icon color="warn">warning</mat-icon>
+</div>
+
+<h2>self register icon</h2>
+
+<div>
+  <!--default one-->
+  <mat-icon svgIcon="custom-svg:angular"></mat-icon>
+  <!--primary one-->
+  <mat-icon svgIcon="custom-svg:angular" color="primary"></mat-icon>
+  <!--accent one-->
+  <mat-icon svgIcon="custom-svg:angular" color="accent"></mat-icon>
+  <!--warning one-->
+  <mat-icon svgIcon="custom-svg:angular" color="warn"></mat-icon>
+</div>
+
+<h2>font awesome in mat icon</h2>
+<!--default color-->
+<mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up"></mat-icon>
+<!--primary color-->
+<mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="primary"></mat-icon>
+<!--accent color-->
+<mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="accent"></mat-icon>
+<!--warn color-->
+<mat-icon fontSet="fontawesome" fontIcon="fa-thumbs-up" color="warn"></mat-icon>
+
+
